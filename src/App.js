@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path={'/'} element={<Home/>}/>
+        <Route exact path={'/simple-cms/'} element={<Home/>}/>
         <Route path={'/tabs/:id/'} element={<Table/>}/>
         <Route path={'*'} element={<NotFound/>} />
       </Routes>
